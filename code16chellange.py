@@ -14,4 +14,3 @@ while True:
 sport = input(' Wybierz co chcesz zrobic aby spalić kalorie: \n' + ' '.join(sports.keys()) + '\n ~ ')
 time_to_do = macro['kcal'] / sports[sport]
 print(' Musisz robić to przez', time_to_do , 'minut')
-
